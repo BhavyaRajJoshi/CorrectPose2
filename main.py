@@ -1,0 +1,2 @@
+from cnnClassifier import logger
+
