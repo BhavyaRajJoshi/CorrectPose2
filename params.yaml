@@ -1,1 +1,7 @@
-key: val
+AUGMENTATION: True
+BATCH_SIZE: 12
+EPOCHS: 100 #change as per training requirements
+CLASSES: 2 #healty image and non healthy image
+WEIGHTS: weights
+LEARNING_RATE: 0.01
+
