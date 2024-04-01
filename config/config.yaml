@@ -6,6 +6,21 @@ data_ingestion:
   local_data_file: artifacts/data_ingestion/yoga_poses.zip
   unzip_dir: artifacts/data_ingestion
 
+data_extraction:
+  root_dir: artifacts/data_extraction
+  extracted_data: artifacts/data_extraction/extracted_data
+
+
+prepare_model:
+  root_dir: artifacts/prepare_base_model
+  model_path: artifacts/prepare_base_model/base_model.h5
+  updated_model_path: artifacts/prepare_base_model/base_model_updated.h5
+
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.h5
+
 
 prepare_callbacks:
   root_dir: artifacts/prepare_callbacks
