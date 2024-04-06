@@ -1,5 +1,5 @@
 AUGMENTATION: True
-BATCH_SIZE: 12
+BATCH_SIZE: 100
 EPOCHS: 100 #change as per training requirements
 CLASSES: 2 
 WEIGHTS: weights
