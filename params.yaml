@@ -1,7 +1,8 @@
 AUGMENTATION: True
-BATCH_SIZE: 100
-EPOCHS: 10 #change as per training requirements
+BATCH_SIZE: 50
+EPOCHS: 4 #change as per training requirements
 CLASSES: 2 
 WEIGHTS: weights
 LEARNING_RATE: 0.01
+EVAL_BATCH_SIZE: 8
 
