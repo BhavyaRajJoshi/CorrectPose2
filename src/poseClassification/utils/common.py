@@ -1,7 +1,16 @@
+import sys
 import os
+
+# Get the path of the parent directory
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+# Add the parent directory to sys.path
+sys.path.append('/Users/richcriticism/Documents/Documents/Bhavya_code/CorrectPose2/src')
+
+
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from poseClassification import logger
 import json
 import joblib
 from ensure import ensure_annotations

@@ -6,7 +6,7 @@ logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:'
 #only messages of level info and higher will be shown(eg. "WARNING, ERROR, CRITICAL")
 
 
-project_name = "cnnClassifier"
+project_name = "pose_Classification"
 
 list_of_files = [
     ".github/workflows/.gitkeep",

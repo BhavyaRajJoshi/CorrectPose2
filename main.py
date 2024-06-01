@@ -1,2 +1,2 @@
-from cnnClassifier import logger
+from poseClassification import logger
 
