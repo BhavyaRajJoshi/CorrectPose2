@@ -9,4 +9,4 @@ data_ingestion:
 
 model_creation:
   root_dir: artifacts/model_creation
-  configured_model_path: artifacts/model_creation/configured_model_path
+  configured_model_path: artifacts/model_creation/configured_model_path.h5
