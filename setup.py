@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "CorrectPose2"
 AUTHOR_USER_NAME = "BhavyaRajJoshi"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "poseClassification"
 AUTHOR_EMAIL = "bhavyarajjoshiatwork@gmail.com"
 
 
