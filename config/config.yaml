@@ -15,4 +15,5 @@ model_creation:
 model_training:
   root_dir : artifacts/model_training
   trained_model_path: artifacts/model_training/trained_model_path.h5
-  
+
+ 
